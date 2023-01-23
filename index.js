@@ -96,23 +96,20 @@ else {
 }
 
 
-let average = 4;
-let best = 5;
-let good = 4;
-let enough = 3;
-let bad = 2;
-if (average === best) {
-  console.log("He's best");
+let score = 3 ;
+if (score === 5) {
+  console.log("He's a");
 }
-else if (average === good) {
-  console.log("He's good");
+else if (score === 4) {
+  console.log("He's b");
 }
-else if (average === enough) {
-  console.log("He's enough");
+else if (score === 3) {
+  console.log("He's c");
 }
-else if (average === bad) {
-  console.log("He's bad");
+else if (score === 2) {
+  console.log("He's d");
 }
 else {
-  console.log("He's been kicked");
+  console.log("He's f");
 }
+
