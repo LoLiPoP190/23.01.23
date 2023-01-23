@@ -80,7 +80,7 @@ else if (weekDay === "Среда") {
   console.log(` "${weekDay}" Шаршемби`);
 }
 else if (weekDay === "Четверг") {
-  console.log( "${weekDay}" `Бейшемби`);
+  console.log("${weekDay}" `Бейшемби`);
 }
 else if (weekDay === "Пятница") {
   console.log(` "${weekDay}" Жума`);
@@ -96,7 +96,7 @@ else {
 }
 
 
-let score = 3 ;
+let score = 3;
 if (score === 5) {
   console.log("He's a");
 }
@@ -113,3 +113,30 @@ else {
   console.log("He's f");
 }
 
+let month = "".toLowerCase();
+if (month === "january" || month === "february" || month === "december") {
+  console.log(` ${month} is winter`);
+}
+else if (month === "march" || month === "april" || month === "may") {
+  console.log(` ${month} is spring`);
+}
+else if (month === "june" || month === "july" || month === "august") {
+  console.log(` ${month} is summer`);
+}
+else if (month === "september" || month === "october" || month === "november") {
+  console.log(` ${month} is fall`);
+}
+else {
+  console.log(` ${month} is not exsists`);
+}
+
+let dayOfWeek = "".toLowerCase();
+if (dayOfWeek === "Понедельник" || dayOfWeek === "Вторник" || dayOfWeek === "Среда" || dayOfWeek === "Четверг" || dayOfWeek === "Пятница") {
+  console.log(` ${dayOfWeek} is working day`);
+}
+else if (dayOfWeek === "Суббота" || dayOfWeek === "Воскресенье") {
+  console.log(` ${dayOfWeek} is holiday`);
+}
+else {
+  console.log(` ${dayOfWeek} is not exsists`);
+}
