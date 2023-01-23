@@ -67,3 +67,30 @@ else if (a === 0) {
 else {
   console.log(`"${a}" is not a number`);
 }
+
+let weekDay = "";
+
+if (weekDay === "Понедельник") {
+  console.log("Дүйшөмбү");
+}
+else if (weekDay === "Вторник") {
+  console.log(` "${weekDay}" Шейшемби`);
+}
+else if (weekDay === "Среда") {
+  console.log(` "${weekDay}" Шаршемби`);
+}
+else if (weekDay === "Четверг") {
+  console.log( "${weekDay}" `Бейшемби`);
+}
+else if (weekDay === "Пятница") {
+  console.log(` "${weekDay}" Жума`);
+}
+else if (weekDay === "Суббота") {
+  console.log(` "${weekDay}" Ишемби`);
+}
+else if (weekDay === "Воскресенье") {
+  console.log(` "${weekDay}" "Жекшемби`);
+}
+else {
+  console.log(` "${weekDay}" Такого дня нет`);
+}
