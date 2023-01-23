@@ -54,16 +54,16 @@ else {
   console.log(false);
 }
 
-let a = 0;
+let a = "lol";
 if (a > 0) {
-  console.log(a + " is positive");
+  console.log(`"${a}" is positive`);
 }
 else if (a < 0) {
-  console.log(a + " is negative");
+  console.log(`"${a}" is negative`);
 }
 else if (a === 0) {
-  console.log(a + " is zero");
+  console.log(`"${a}" is zero`);
 }
 else {
-  console.log(a + " is not a number");
+  console.log(`"${a}" is not a number`);
 }
