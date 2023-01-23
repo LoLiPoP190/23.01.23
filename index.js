@@ -68,7 +68,7 @@ else {
   console.log(`"${a}" is not a number`);
 }
 
-let weekDay = "";
+let weekDay = "fjdkasl;";
 
 if (weekDay === "Понедельник") {
   console.log("Дүйшөмбү");
@@ -93,4 +93,26 @@ else if (weekDay === "Воскресенье") {
 }
 else {
   console.log(` "${weekDay}" Такого дня нет`);
+}
+
+
+let average = 4;
+let best = 5;
+let good = 4;
+let enough = 3;
+let bad = 2;
+if (average === best) {
+  console.log("He's best");
+}
+else if (average === good) {
+  console.log("He's good");
+}
+else if (average === enough) {
+  console.log("He's enough");
+}
+else if (average === bad) {
+  console.log("He's bad");
+}
+else {
+  console.log("He's been kicked");
 }
