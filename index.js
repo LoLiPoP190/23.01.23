@@ -217,3 +217,13 @@ else if (dayOfWeek === "Суббота" || dayOfWeek === "Воскресенье
 else {
   console.log(` ${dayOfWeek} is not exsists`);
 }
+switch (dayOfWeek) {
+  case dayOf Week === "Понедельник" || dayOfWeek === "Вторник" || dayOfWeek === "Среда" || dayOfWeek === "Четверг" || dayOfWeek === "Пятница":
+    console.log(`${dayOfWeek} is working day`);
+    break;
+  case dayOfWeek === "Суббота" || dayOfWeek === "Воскресенье":
+    console.log(`${dayOfWeek} is holiday`);
+  break;
+  default:
+    console.log(`${dayOfWeek} is not exists`);
+}
