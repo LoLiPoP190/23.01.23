@@ -218,7 +218,7 @@ else {
   console.log(` ${dayOfWeek} is not exsists`);
 }
 switch (dayOfWeek) {
-  case dayOf Week === "Понедельник" || dayOfWeek === "Вторник" || dayOfWeek === "Среда" || dayOfWeek === "Четверг" || dayOfWeek === "Пятница":
+  case dayOfWeek === "Понедельник" || dayOfWeek === "Вторник" || dayOfWeek === "Среда" || dayOfWeek === "Четверг" || dayOfWeek === "Пятница":
     console.log(`${dayOfWeek} is working day`);
     break;
   case dayOfWeek === "Суббота" || dayOfWeek === "Воскресенье":
