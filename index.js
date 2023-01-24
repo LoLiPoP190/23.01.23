@@ -189,6 +189,24 @@ else {
   console.log(` ${month} is not exsists`);
 }
 
+switch (month) {
+  case month === "january" || month === "february" || month === "december":
+    console.log(` ${month} is winter`);
+    break;
+  case month === "march" || month === "april" || month === "may":
+    console.log(` ${month} is spring`);
+    break;
+  case month === "june" || month === "july" || month === "august":
+    console.log(` ${month} is summer`);
+    break;
+  case month === "september" || month === "october" || month === "november":
+    console.log(` ${month} is fall`);
+    break;
+  default: 
+   console.log(` ${month} is not exsists`);
+}
+
+
 let dayOfWeek = "".toLowerCase();
 if (dayOfWeek === "Понедельник" || dayOfWeek === "Вторник" || dayOfWeek === "Среда" || dayOfWeek === "Четверг" || dayOfWeek === "Пятница") {
   console.log(` ${dayOfWeek} is working day`);
