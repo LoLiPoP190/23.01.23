@@ -110,6 +110,32 @@ else {
   console.log(` "${weekDay}" Такого дня нет`);
 }
 
+switch (weekDay) {
+  case weekDay === "Понедельник":
+    console.log("Дүйшөмбү");
+    break;
+  case weekDay === "Вторник":
+    console.log(` "${weekDay}" Шейшемби`);
+    break;
+  case weekDay === "Среда":
+    console.log(` "${weekDay}" Шаршемби`);
+    break;
+  case weekDay === "Четверг":
+    console.log("${weekDay}" `Бейшемби`);
+    break;
+  case weekDay === "Пятница":
+    console.log(` "${weekDay}" Жума`);
+    break;
+  case weekDay === "Суббота":
+    console.log(` "${weekDay}" Ишемби`);
+    break;
+  case weekDay === "Воскресенье":
+    console.log(` "${weekDay}" "Жекшемби`);
+    break;
+  default:
+    console.log(` "${weekDay}" Такого дня нет`);
+}
+
 
 let score = 3;
 if (score === 5) {
