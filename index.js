@@ -154,6 +154,24 @@ else {
   console.log("He's f");
 }
 
+switch (score) {
+  case score === 5:
+    console.log("He's a");
+    break;
+  case score === 4:
+    console.log("He's b");
+    break;
+  case score === 3:
+    console.log("He's c");
+    break;
+  case score === 2:
+    console.log("He's d");
+    break;
+  default:
+    console.log(`He's f`);
+}
+
+
 let month = "".toLowerCase();
 if (month === "january" || month === "february" || month === "december") {
   console.log(` ${month} is winter`);
